@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "sha-256.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Stargazer10101/Web3-Projects/issues"
   },
-  "homepage": "https://github.com/Stargazer10101/Web3-Projects#readme"
+  "homepage": "https://github.com/Stargazer10101/Web3-Projects#readme",
+  "dependencies": {
+    "@noble/ed25519": "^2.2.3",
+    "@noble/secp256k1": "^2.2.3",
+    "@solana/web3.js": "^1.98.0",
+    "crypto": "^1.0.1",
+    "ethers": "^6.13.5",
+    "tweetnacl": "^1.0.3"
+  }
 }
